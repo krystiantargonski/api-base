@@ -1,6 +1,6 @@
 #### Setup environment
 Please do the following steps:
-- `cp .evn.dist .env` and set properly configuration options
+- `cp .env.dist .env` and set properly configuration options
 - `composer install`
 - `cp behat.yml.dist behat.yml` and update `baseUri` option in `behat.yml` file to correct url
 
