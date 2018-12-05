@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>This value should not be blank.</source>
+                <target>api_validator.value_not_blank</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>This value is not a valid email address.</source>
+                <target>api_validator.not_valid_email</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>This value is too short. It should have 6 characters or more.</source>
+                <target>api_validator.min_length_6_chars</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>This value is not a valid date.</source>
+                <target>api_validator.not_valid_date</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>This value is not a valid datetime.</source>
+                <target>api_validator.not_valid_datetime</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>This value should be of type integer.</source>
+                <target>api_validator.integer_type_required</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Incorrect Value for dictionary field</source>
+                <target>api_validator.not_valid_dictionary</target>
+            </trans-unit>
+            <trans-unit id="8">
+                <source>This value is too long. It should have 255 characters or less.</source>
+                <target>api_validator.max_length_255_chars</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

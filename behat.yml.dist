@@ -1,0 +1,14 @@
+default:
+    suites:
+        default:
+            #contexts: [FeatureContext, ApiFeatureContext]
+            contexts:
+                - FeatureContext:
+                    kernel: '@kernel'
+                - ApiFeatureContext:
+                    baseUri: 'http://example.com'
+    extensions:
+        Behat\Symfony2Extension: 
+            kernel:
+                bootstrap: features/bootstrap/bootstrap.php
+                class: App\Kernel
